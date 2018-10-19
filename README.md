@@ -352,15 +352,12 @@ https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified#_git_reset
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching
 https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
 
-
- 
-Git Flow:
+That was all the theory of Git.
+Below we do some basic practice for git. This will also help us develop our own workflow.
 
 Find a spot on your pc/home folder where you want this set of work to be
 From there, in terminal, type “git clone XXXXXXXXXXXXXXXXXXX”
--	This creates a copy of the remote repository in your local instance.
--	For Kieron, make sure this repository exists beforehand. It will contain a readme with all this info
--	Make sure there is already a master branch.
+This creates a copy of the remote repository in your local instance.
 
 “git branch” will tell you what branch you are on. The master branch is the one that is in production. Running anything on this branch must always work. This branch should not be changed until we know the changes will 100% work without a hitch. The changes to master are never made directly on master, they are made via merges from other branches. We will get back to this.
 “git branch” should tell you that this exists.
